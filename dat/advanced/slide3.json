@@ -11,12 +11,12 @@
         "html": "Yes",
         "class": "btn btn-success",
         "tag": "button",
-        "navTo": "slide4"
+        "onclick": "nextSlide('/financial-health-check/dat/slide4', this)"
     }, {
         "html": "No",
         "class": "btn pull-right btn-info",
         "tag": "button",
-        "navTo": "slide4"
+        "onclick": "nextSlide('/financial-health-check/dat/slide4', this)"
     }],
     "readMore": {
         "title": {

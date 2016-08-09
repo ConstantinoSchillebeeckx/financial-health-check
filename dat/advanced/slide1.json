@@ -1,22 +1,22 @@
 {
     "title": {
-        "html": "Debts",
+        "html": "Getting started",
         "tag": "h1"
     },
     "body": {
-        "html": "Do you have any high-interest debts (for example, credit card debt)?",
+        "html": "Do you have $1,000 available to you immediately (in a savings account, for example)?",
         "tag": "p"
     },
     "nav": [{
         "html": "Yes",
         "class": "btn btn-success",
         "tag": "button",
-        "navTo": "slide3"
+        "onclick": "nextSlide('/financial-health-check/dat/slide2', this)"
     }, {
         "html": "No",
         "class": "btn pull-right btn-info",
         "tag": "button",
-        "navTo": "slide3"
+        "onclick": "nextSlide('/financial-health-check/dat/slide2', this)"
     }],
     "readMore": {
         "title": {
@@ -25,7 +25,7 @@
             "class": "panel-title"
         },
         "body": {
-            "html":"These are debts that carry high interest rates (>5%). Paying down high interest debts is an important priority, because eliminating the interest that would accumulate is a guaranteed return on your investment.",
+            "html": "<p>This is money you should have on hand to account for emergencies, like your car breaking down. You should only count money you have set aside, not cash flow from recent paychecks.</p><br><img class='img-responsive' src='https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif'></img>",
             "tag": "p"
         },
         "tag": "h2",

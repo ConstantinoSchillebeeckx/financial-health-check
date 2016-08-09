@@ -1,0 +1,36 @@
+{
+    "title": {
+        "html": "Debts",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "Do you have any high-interest debts (for example, credit card debt)?",
+        "tag": "p"
+    },
+    "nav": [{
+        "html": "Yes",
+        "class": "btn btn-success",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/slide3', this)"
+    }, {
+        "html": "No",
+        "class": "btn pull-right btn-info",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/slide3', this)"
+    }],
+    "readMore": {
+        "title": {
+            "html": "More info",
+            "tag": "h3",
+            "class": "panel-title"
+        },
+        "body": {
+            "html":"These are debts that carry high interest rates (>5%). Paying down high interest debts is an important priority, because eliminating the interest that would accumulate is a guaranteed return on your investment.",
+            "tag": "p"
+        },
+        "tag": "h2",
+        "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
+        "class": "readMore text-primary"
+    }
+}
+
