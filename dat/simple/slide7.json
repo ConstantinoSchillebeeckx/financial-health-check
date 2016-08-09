@@ -1,0 +1,20 @@
+{
+    "title": {
+        "html": "Summary",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "This is the summary slide where we show an overal health status and suggest insight into what to do next.",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide6', this)"
+    }
+    ],
+    "onload": "showProfile"
+}
+

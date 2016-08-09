@@ -7,17 +7,27 @@
         "html": "Does your employer provide a 401(k) retirement plan with matching contributions?",
         "tag": "p"
     },
-    "nav": [{
-        "html": "Yes",
-        "class": "btn btn-success",
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide4', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide2', this)"
+    }, 
+    {
+        "html": "Yes",
+        "class": "btn pull-right btn-info answer",
+        "tag": "button",
+        "name": "yes",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide4', this)"
     }, {
         "html": "No",
-        "class": "btn pull-right btn-info",
+        "class": "btn pull-right btn-info answer",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide4', this)"
-    }],
+        "name": "no",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide4', this)"
+    }
+    ],
     "readMore": {
         "title": {
             "html": "More info",

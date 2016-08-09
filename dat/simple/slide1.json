@@ -7,17 +7,22 @@
         "html": "Do you have $1,000 available to you immediately (in a savings account, for example)?",
         "tag": "p"
     },
-    "nav": [{
+    "nav": [
+    {
         "html": "Yes",
-        "class": "btn btn-success",
+        "class": "btn btn-info pull-right answer",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide2', this)"
-    }, {
+        "name": "yes",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide2', this)"
+    }, 
+    {
         "html": "No",
-        "class": "btn pull-right btn-info",
+        "class": "btn pull-right btn-info answer",
+        "name": "no",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide2', this)"
-    }],
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide2', this)"
+    }
+    ],
     "readMore": {
         "title": {
             "html": "More info",
@@ -25,7 +30,7 @@
             "class": "panel-title"
         },
         "body": {
-            "html": "<p>This is money you should have on hand to account for emergencies, like your car breaking down. You should only count money you have set aside, not cash flow from recent paychecks.</p><br><img class='img-responsive' src='https://upload.wikimedia.org/wikipedia/commons/d/db/B%C3%A9zier_3_big.gif'></img>",
+            "html": "<p>This is money you should have on hand to account for emergencies, like your car breaking down. You should only count money you have set aside, not cash flow from recent paychecks.</p>",
             "tag": "p"
         },
         "tag": "h2",

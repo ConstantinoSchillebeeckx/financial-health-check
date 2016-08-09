@@ -7,16 +7,25 @@
         "html": "Do you have any taxable investment accounts (brokerage accounts)?",
         "tag": "p"
     },
-    "nav": [{
-        "html": "Yes",
-        "class": "btn btn-success",
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
         "tag": "button",
-        "navTo": "slide1"
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide5', this)"
+    }, 
+    {
+        "html": "Yes",
+        "class": "btn pull-right btn-info answer",
+        "tag": "button",
+        "name": "yes",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide7', this)"
     }, {
         "html": "No",
-        "class": "btn pull-right btn-info",
+        "class": "btn pull-right btn-info answer",
         "tag": "button",
-        "navTo": "slide1"
+        "name": "no",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide7', this)"
     }],
     "readMore": {
         "title": {

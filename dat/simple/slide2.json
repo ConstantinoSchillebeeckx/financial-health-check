@@ -7,16 +7,25 @@
         "html": "Do you have any high-interest debts (for example, credit card debt)?",
         "tag": "p"
     },
-    "nav": [{
-        "html": "Yes",
-        "class": "btn btn-success",
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide3', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide1', this)"
+    }, 
+    {
+        "html": "Yes",
+        "class": "btn pull-right btn-info answer",
+        "tag": "button",
+        "name": "yes",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide3', this)"
     }, {
         "html": "No",
-        "class": "btn pull-right btn-info",
+        "class": "btn pull-right btn-info answer",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide3', this)"
+        "name": "no",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide3', this)"
     }],
     "readMore": {
         "title": {
