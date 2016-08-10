@@ -1,0 +1,27 @@
+{
+    "title": {
+        "html": "Choose your own adventure!",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "Some text about choosing simple or advanced",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "Simple",
+        "class": "btn btn-info btn-lg",
+        "name": "simple",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide1', this)"
+    },
+    {
+        "html": "Detailed",
+        "class": "btn pull-right btn-info btn-lg",
+        "name": "detailed",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide1', this)"
+    }
+    ]
+}
+

@@ -1,0 +1,50 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "How much money do you have saved that is available to you immediately in savings accounts?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide5', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide7', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"emergency_savings",
+        "attributes": "required",
+        "max":"100000",
+        "min":"1",
+        "class": null,
+        "placeholder": "345.85"
+    }
+    ],
+    "readMore": {
+        "title": {
+            "html": "More info",
+            "tag": "h3",
+            "class": "panel-title"
+        },
+        "body": {
+            "html":"This is money you should have on hand to account for emergencies, like your car breaking down. You should only count money you have set aside, not cash flow from recent paychecks.",
+            "tag": "p"
+        },
+        "tag": "h2",
+        "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
+        "class": "readMore text-primary"
+    }
+}
+

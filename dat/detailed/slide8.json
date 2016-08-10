@@ -1,23 +1,37 @@
 {
     "title": {
-        "html": "Individual Retirement Accounts (IRA)",
+        "html": "Profile",
         "tag": "h1"
     },
     "body": {
-        "html": "Do you have a Roth Individual Retirement Account (Roth IRA)?",
+        "html": "How much money do you currently contribute each month to a Roth Individual Retirement account (Roth IRA)?",
         "tag": "p"
     },
-    "nav": [{
-        "html": "Yes",
-        "class": "btn btn-success",
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide6', this)"
-    }, {
-        "html": "No",
-        "class": "btn pull-right btn-info",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide7', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/slide6', this)"
-    }],
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide9', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"roth",
+        "attributes": "required",
+        "max":"100000",
+        "min":"1",
+        "class": null,
+        "placeholder": "345.85"
+    }
+    ],
     "readMore": {
         "title": {
             "html": "More info",
@@ -26,7 +40,7 @@
         },
         "body": {
             "html": "IRAs are tax-advantaged retirement accounts, similar to the 401(k), but they are independent of your employer, meaning you have a better selection of funds to invest in. Note that high income individuals may be ineligible for a Roth account. <<Click here for more info; Link to detailed explanation of Roth vs Traditional, income caps, backdoor Roth conversions>>.",
-             "tag": "p"
+            "tag": "p"
         },
         "tag": "h2",
         "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",

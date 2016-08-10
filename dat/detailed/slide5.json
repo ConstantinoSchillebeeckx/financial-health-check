@@ -1,0 +1,50 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "What are you total fixed expenses for one month?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide4', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide6', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"montly_expenses",
+        "attributes": "required",
+        "max":"100000",
+        "min":"1",
+        "class": null,
+        "placeholder": "345.85"
+    }
+    ],
+    "readMore": {
+        "title": {
+            "html": "More info",
+            "tag": "h3",
+            "class": "panel-title"
+        },
+        "body": {
+            "html":"Include all required monthly expenses, such as your rent/mortgage, estimated utilities, commuting costs, etc. Do not include minimum payments on debt here.",
+            "tag": "p"
+        },
+        "tag": "h2",
+        "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
+        "class": "readMore text-primary"
+    }
+}
+

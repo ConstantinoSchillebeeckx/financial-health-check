@@ -1,0 +1,50 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "What debts do you currently have, along with their interest rates and minimum required payments?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide3', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide5', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"input",
+        "name":"debts",
+        "attributes": "required",
+        "max":"100000",
+        "min":"1",
+        "class": null,
+        "placeholder": "to do"
+    }
+    ],
+    "readMore": {
+        "title": {
+            "html": "More info",
+            "tag": "h3",
+            "class": "panel-title"
+        },
+        "body": {
+            "html":"Paying off debts is an important financial priority, because eliminating the interest that would accumulate is a guaranteed return on your investment.",
+            "tag": "p"
+        },
+        "tag": "h2",
+        "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
+        "class": "readMore text-primary"
+    }
+}
+

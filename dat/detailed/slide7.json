@@ -1,0 +1,50 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "If your employer provides a 401(k) retirement plan with matched contributions, what percent of your income would you need to contribute to maximize the employer match?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide6', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide8', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"401_match_req",
+        "attributes": "required",
+        "max":"100000",
+        "min":"1",
+        "class": null,
+        "placeholder": "345.85"
+    }
+    ],
+    "readMore": {
+        "title": {
+            "html": "More info",
+            "tag": "h3",
+            "class": "panel-title"
+        },
+        "body": {
+            "html":"A 401(k) is a tax-advantaged retirement account, and employers often ‘match’ employee contributions up to a specified percentage of income. An employer match is a guaranteed return on investment, so this is a very high financial priority! For this question, if your employer provides a contribution match up to 6% of your income, you should enter 6 in the box. If your employer does not match 401(k) contributions, leave this box blank.",
+            "tag": "p"
+        },
+        "tag": "h2",
+        "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
+        "class": "readMore text-primary"
+    }
+}
+

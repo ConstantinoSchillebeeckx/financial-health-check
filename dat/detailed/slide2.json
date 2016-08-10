@@ -1,0 +1,36 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "How many years do you expect to work before retirement?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+        "class": "btn btn-warning",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide1', this)"
+    }, 
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide3', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"years_to_retirement",
+        "attributes": "required",
+        "max":"100",
+        "min":"1",
+        "class": null,
+        "placeholder": "years"
+    }
+    ]
+}
+

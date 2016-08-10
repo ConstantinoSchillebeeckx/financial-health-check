@@ -1,0 +1,30 @@
+{
+    "title": {
+        "html": "Profile",
+        "tag": "h1"
+    },
+    "body": {
+        "html": "What is your current age?",
+        "tag": "p"
+    },
+    "nav": [
+    {
+        "html": "Next",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide2', this)"
+    }
+    ],
+    "input" : [
+    {
+        "type":"number",
+        "name":"age",
+        "attributes": "required",
+        "max":"100",
+        "min":"1",
+        "class": null,
+        "placeholder": "age"
+    }
+    ]
+}
+
