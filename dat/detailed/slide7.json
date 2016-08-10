@@ -1,6 +1,6 @@
 {
     "title": {
-        "html": "Profile",
+        "html": "401(k)",
         "tag": "h1"
     },
     "body": {
@@ -12,7 +12,7 @@
         "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
         "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide6', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide6', this, false)"
     }, 
     {
         "html": "Next",
@@ -27,7 +27,7 @@
         "name":"401_match_req",
         "attributes": "required",
         "max":"100000",
-        "min":"1",
+        "min":"0",
         "class": null,
         "placeholder": "345.85"
     }

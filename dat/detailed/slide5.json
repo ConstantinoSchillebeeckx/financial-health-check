@@ -1,10 +1,10 @@
 {
     "title": {
-        "html": "Profile",
+        "html": "Monthly expenses",
         "tag": "h1"
     },
     "body": {
-        "html": "What are you total fixed expenses for one month?",
+        "html": "What are you total fixed expenses each month?",
         "tag": "p"
     },
     "nav": [
@@ -12,7 +12,7 @@
         "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
         "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide4', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide4', this, false)"
     }, 
     {
         "html": "Next",
@@ -27,7 +27,7 @@
         "name":"montly_expenses",
         "attributes": "required",
         "max":"100000",
-        "min":"1",
+        "min":"0",
         "class": null,
         "placeholder": "345.85"
     }

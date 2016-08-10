@@ -1,6 +1,6 @@
 {
     "title": {
-        "html": "Profile",
+        "html": "Retirement age",
         "tag": "h1"
     },
     "body": {
@@ -12,7 +12,7 @@
         "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
         "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide1', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide1', this, false)"
     }, 
     {
         "html": "Next",
@@ -25,8 +25,8 @@
     {
         "type":"number",
         "name":"years_to_retirement",
-        "attributes": "required",
         "max":"100",
+        "attributes": "required",
         "min":"1",
         "class": null,
         "placeholder": "years"

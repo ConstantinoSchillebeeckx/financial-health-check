@@ -1,6 +1,6 @@
 {
     "title": {
-        "html": "Profile",
+        "html": "Current age",
         "tag": "h1"
     },
     "body": {
@@ -19,8 +19,8 @@
     {
         "type":"number",
         "name":"age",
-        "attributes": "required",
         "max":"100",
+        "attributes": "required",
         "min":"1",
         "class": null,
         "placeholder": "age"

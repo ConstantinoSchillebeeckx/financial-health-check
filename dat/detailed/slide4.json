@@ -1,6 +1,6 @@
 {
     "title": {
-        "html": "Profile",
+        "html": "Debts",
         "tag": "h1"
     },
     "body": {
@@ -12,7 +12,7 @@
         "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
         "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide3', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide3', this, false)"
     }, 
     {
         "html": "Next",
@@ -45,6 +45,7 @@
         "tag": "h2",
         "html": "<span class='glyphicon glyphicon-question-sign' aria-hidden='true'></span>",
         "class": "readMore text-primary"
-    }
+    },
+    "onload","debtInputs"
 }
 

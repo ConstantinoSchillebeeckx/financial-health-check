@@ -12,7 +12,7 @@
         "html": "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
         "class": "btn btn-warning",
         "tag": "button",
-        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide9', this)"
+        "onclick": "nextSlide('/financial-health-check/dat/detailed/slide9', this, false)"
     }
     ],
     "onload": "showProfile"
