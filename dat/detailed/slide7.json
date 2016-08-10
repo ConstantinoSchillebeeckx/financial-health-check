@@ -4,7 +4,7 @@
         "tag": "h1"
     },
     "body": {
-        "html": "If your employer provides a 401(k) retirement plan with matched contributions, what percent of your income would you need to contribute to maximize the employer match?",
+        "html": "If your employer provides a 401(k) retirement plan with matched contributions, what percent do they match? (Typical match percentages can be in the 5-10% range)",
         "tag": "p"
     },
     "nav": [
@@ -25,7 +25,7 @@
     {
         "type":"number",
         "name":"401_match_req",
-        "attributes": "required",
+        "attributes": "required autofocus",
         "max":"100000",
         "min":"0",
         "class": null,
@@ -39,7 +39,7 @@
             "class": "panel-title"
         },
         "body": {
-            "html":"A 401(k) is a tax-advantaged retirement account, and employers often ‘match’ employee contributions up to a specified percentage of income. An employer match is a guaranteed return on investment, so this is a very high financial priority! For this question, if your employer provides a contribution match up to 6% of your income, you should enter 6 in the box. If your employer does not match 401(k) contributions, leave this box blank.",
+            "html": "A 401(k) is a tax-advantaged retirement account, and employers often ‘match’ employee contributions up to a specified percentage of income. An employer match is a guaranteed return on investment, so this is a very high financial priority!<br>For this question, if your employer matches your contributions up to 6% of your income, you should enter 6 in the box. If your employer does not match 401(k) contributions, enter 0.<br>Some employers will match a portion of your contributions. For example, an employer might match 50% of your contributions up to 5% of your salary. In that case, you would need to contribute 5% of your salary to get the full benefit of the match (even though the match equals 2.5% of your salary), and you should still enter 5 in this box.",
             "tag": "p"
         },
         "tag": "h2",

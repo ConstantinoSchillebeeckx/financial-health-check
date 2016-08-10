@@ -4,7 +4,7 @@
         "tag": "h1"
     },
     "body": {
-        "html": "How much money do you currently contribute each month to a Roth Individual Retirement account (Roth IRA)?",
+        "html": "How much money do you currently contribute each month to a Individual Retirement Account (either Traditional or Roth IRA)?",
         "tag": "p"
     },
     "nav": [
@@ -25,7 +25,7 @@
     {
         "type":"number",
         "name":"roth",
-        "attributes": "required",
+        "attributes": "required autofocus",
         "max":"100000",
         "min":"0",
         "class": null,

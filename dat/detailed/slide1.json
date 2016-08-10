@@ -20,7 +20,7 @@
         "type":"number",
         "name":"age",
         "max":"100",
-        "attributes": "required",
+        "attributes": "required autofocus",
         "min":"1",
         "class": null,
         "placeholder": "age"

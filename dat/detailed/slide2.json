@@ -26,7 +26,7 @@
         "type":"number",
         "name":"years_to_retirement",
         "max":"100",
-        "attributes": "required",
+        "attributes": "required autofocus",
         "min":"1",
         "class": null,
         "placeholder": "years"
