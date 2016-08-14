@@ -10,3 +10,12 @@
 .delete-row {
     margin-top: 5px;
 }
+
+
+.summary {
+    margin-top: 20px;
+}
+
+.summmary .row .col-sm-1 {
+    margin-right: 20px;
+}

@@ -15,6 +15,6 @@
         "onclick": "nextSlide('/financial-health-check/dat/simple/slide6', this)"
     }
     ],
-    "onload": "showProfile"
+    "onload": "generateSimpleFinanceSummary"
 }
 

@@ -4,7 +4,7 @@
         "tag": "h1"
     },
     "body": {
-        "html": "What debts do you currently have, along with their interest rates and minimum required payments?",
+        "html": "Do you have any debts?  If so press the <a href='#'><i class='fa fa-plus-square'></i></a> button to add individual debts.  If you need to remove any debts, simply press <a href='#' class='text-danger'><i class='fa fa-times-circle-o'></i></a>",
         "tag": "p"
     },
     "nav": [

@@ -4,7 +4,7 @@
         "tag": "h1"
     },
     "body": {
-        "html": "Do you have a Roth Individual Retirement Account (Roth IRA)?",
+        "html": "Do you have a either a traditional IRA or a Roth IRA?  If so, are you contributing the maximum yearly allowed amount ($5,500 in 2016)?",
         "tag": "p"
     },
     "nav": [
@@ -15,10 +15,16 @@
         "onclick": "nextSlide('/financial-health-check/dat/simple/slide4', this)"
     }, 
     {
-        "html": "Yes",
+        "html": "Yes, but I'm <u>not</u> maxing it out.",
         "class": "btn btn-info pull-right answer",
         "tag": "button",
-        "name": "yes",
+        "name": "yes_not_maxing",
+        "onclick": "nextSlide('/financial-health-check/dat/simple/slide6', this)"
+    }, {
+        "html": "Yes, and I'm maxing it out.",
+        "class": "btn btn-info pull-right answer",
+        "tag": "button",
+        "name": "yes_maxing",
         "onclick": "nextSlide('/financial-health-check/dat/simple/slide6', this)"
     }, {
         "html": "No",
@@ -35,7 +41,7 @@
             "class": "panel-title"
         },
         "body": {
-            "html": "IRAs are tax-advantaged retirement accounts, similar to the 401(k), but they are independent of your employer, meaning you have a better selection of funds to invest in. Note that high income individuals may be ineligible for a Roth account. <<Click here for more info; Link to detailed explanation of Roth vs Traditional, income caps, backdoor Roth conversions>>.",
+            "html": "IRAs or individual retirement accounts are tax-advantaged retirement accounts, similar to the 401(k), but they are independent of your employer, meaning you have a better selection of funds to invest in. Note that high income individuals may be ineligible for a Roth account. <<Click here for more info; Link to detailed explanation of Roth vs Traditional, income caps, backdoor Roth conversions>>.",
              "tag": "p"
         },
         "tag": "h2",
